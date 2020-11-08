@@ -1,0 +1,16 @@
+{
+  "name": "com.jasonskillman.datastructures",
+  "displayName": "Data Structures",
+  "version": "1.0.0",
+  "unity": "2018.1",
+  "description": "A collection of data structures for Unity.",
+  "keywords": [
+    "tools"
+  ],
+  "category": "Data Structures",
+  "author": {
+    "name": "Jason Skillman",
+    "email": "jason_skillman@outlook.com",
+    "url": "https://github.com/Jason-Skillman"
+  }
+}
