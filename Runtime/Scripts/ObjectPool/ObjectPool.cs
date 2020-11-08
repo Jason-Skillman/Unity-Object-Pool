@@ -10,6 +10,7 @@ namespace DataStructures.Pool {
 		
 		private readonly List<T> pool;
 		private readonly T prefab;
+		private Transform parent;
 
 		/// <summary>
 		/// The amount of objects in the pool.
@@ -19,9 +20,11 @@ namespace DataStructures.Pool {
 		public T[] ToArray => pool.ToArray();
 
 		/// <param name="prefab">The prefab reference to use when instantiating objects in the pool.</param>
-		public ObjectPool(T prefab) {
+		/// <param name="parent">The optional parent transform to use when instantiating a new object</param>
+		public ObjectPool(T prefab, Transform parent = null) {
 			pool = new List<T>();
 			this.prefab = prefab;
+			this.parent = parent;
 		}
 		
 		/// <summary>
@@ -39,6 +42,7 @@ namespace DataStructures.Pool {
 			//If no object in pool is free, create a new one
 			if(item == null) {
 				item = prefab.Instantiate();
+				item.transform.parent = parent;
 				
 				pool.Add(item);
 			}
