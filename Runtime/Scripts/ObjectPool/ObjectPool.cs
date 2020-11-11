@@ -18,6 +18,11 @@ namespace DataStructures.Pool {
 		public int Count => pool.Count;
 		
 		public T[] ToArray => pool.ToArray();
+		
+		public T this[int i] {
+			get => pool[i];
+			set => pool[i] = value;
+		}
 
 		/// <param name="prefab">The prefab reference to use when instantiating objects in the pool.</param>
 		/// <param name="parent">The optional parent transform to use when instantiating a new object</param>

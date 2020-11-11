@@ -1,7 +1,7 @@
 {
   "name": "com.jasonskillman.objectpool",
   "displayName": "Object Pool",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "unity": "2018.1",
   "description": "An object pool data structure for Unity.",
   "keywords": [
