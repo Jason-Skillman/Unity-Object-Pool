@@ -1,13 +1,13 @@
 {
-  "name": "com.jasonskillman.datastructures",
-  "displayName": "Data Structures",
-  "version": "1.0.0",
+  "name": "com.jasonskillman.objectpool",
+  "displayName": "Object Pool",
+  "version": "1.0.1",
   "unity": "2018.1",
-  "description": "A collection of pre-built data structures for Unity.",
+  "description": "An object pool data structure for Unity.",
   "keywords": [
     "tools"
   ],
-  "category": "Data Structures",
+  "category": "Object Pool",
   "author": {
     "name": "Jason Skillman",
     "email": "jason_skillman@outlook.com",
