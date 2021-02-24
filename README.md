@@ -16,6 +16,15 @@ Paste in this repository's url.
 
 Click `Add` and the package will be installed in your project.
 
+---
+**NOTE:** For Unity version 2019.2 or lower
+
+If you are using Unity 2019.2 or lower than you will not be able to install the package with the above method. Here are a few other ways to install the package.
+1. You can clone this git repository into your project's `Packages` folder.
+1. Another alternative would be to download this package from GitHub as a zip file. Unzip and in the `Package Manager` click on `Add package from disk...` and select the package's root folder.
+
+---
+
 ## Object Pool
 The object pool class can be used to manage gameobjects and prefabs in the hirachery at runtime. The user can request to get an object from the pool. If no available object exists in the pool a new one will be instantiated. Objects can be activated and deactivated.
 
