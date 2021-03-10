@@ -25,7 +25,14 @@ If you are using Unity 2019.2 or lower than you will not be able to install the 
 
 ---
 
-## Object Pool
+### Git submodule
+Alternatively you can also install this package as a git submodule.
+
+```console
+$ git submodule add https://github.com/Jason-Skillman/Unity-Object-Pool.git Packages/Unity-Object-Pool
+```
+
+## Object pool
 The object pool class can be used to manage gameobjects and prefabs in the hirachery at runtime. The user can request to get an object from the pool. If no available object exists in the pool a new one will be instantiated. Objects can be activated and deactivated.
 
 ### Class definition
