@@ -1,5 +1,8 @@
 # Unity Object Pool Changelog
 
+## [1.0.3] - 07/24/2021
+- Updated assembly definition names.
+
 ## [1.0.2] - 11/11/2020
 - Added indexer to object pool.
 
